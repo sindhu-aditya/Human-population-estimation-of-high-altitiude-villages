@@ -12,6 +12,9 @@ This project aims to estimate the human population of high-altitude villages usi
 ## Study Area
 The high-altitude regions of India, such as Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, and other regions with an altitude above 2500m, are characterized by rugged terrain, harsh climate, and unique flora and fauna. Ladakh is a high-altitude desert region located in the northernmost part of India, with an average elevation of 3500 meters. The region is arid, and vegetation is sparse, mainly consisting of shrubs and grasses. Himachal Pradesh, located in the western Himalayas, is known for its picturesque mountain ranges, lush forests, and alpine meadows. Uttarakhand, situated in the central Himalayas, is home to some of India's most sacred rivers, including the Ganges and Yamuna. The region has diverse vegetation, including oak, deodar, and rhododendron forests. Sikkim, located in the eastern Himalayas, is known for its biodiversity and unique mountain ecosystems. The region has a diverse range of vegetation, including alpine meadows, temperate forests, and sub-tropical forests. In all of these regions, remote sensing and modeling techniques can provide critical insights into population density and distribution, which can inform planning and development initiatives in these remote areas.
 
+## Dataset
+![Data](https://drive.google.com/file/d/1ZPg-hqeEyctDzypDjJ6DEI6iCDTJkgW7/view?usp=sharing)
+
 ## Methodology
 
 ### Stage 1: Village List & Population Dataset
