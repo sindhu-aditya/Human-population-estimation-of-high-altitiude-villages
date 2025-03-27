@@ -37,8 +37,8 @@ The high-altitude regions of India, such as Ladakh, Himachal Pradesh, Uttarakhan
 
 ## Data Processing
 Data processing is an essential step in creating and training a machine learning (ML) model. It involves the preparation and cleaning of data to ensure that it is suitable for use in the model. The main objective of data processing is to transform raw data into a format that can be used by the ML algorithms.
-➔ 1.1) IMPORTING DATABASE
-➔ 1.2) CLEANING OF DATA
+1.1) IMPORTING DATABASE
+1.2) CLEANING OF DATA
 I then dropped village name, as it was in strings format and was not necessary for the working of model. I also dropped snow and ice, grass and flooded vegetation column, as they had same values throughout the dataset and some had missing values. Then I encoded the dependent variable Location that was in form of string to int format.
 
 ## Analysing Data
@@ -53,10 +53,10 @@ Features (x) comprise of independent variables like location,built area,slope, a
 
 ### Multiple Linear Regression
 Multiple linear regression is a statistical method used to model the relationship between a dependent variable and two or more independent variables. It is an extension of simple linear regression, which models the relationship between a dependent variable and a single independent variable. In multiple linear regression, the goal is to find the best-fitting linear equation that describes the relationship between the dependent variable and the independent variables. The equation takes the form: y = β0 + β1x1 + β2x2 + ... + βnxn + ε where:
-● y is the dependent variable
-● x1, x2, ..., xn are the independent variables
-● β0, β1, β2, ..., βn are the regression coefficients (also known as the model parameters)
-● ε is the error term (representing the difference between the predicted and actual values)
+- y is the dependent variable
+- x1, x2, ..., xn are the independent variables
+- β0, β1, β2, ..., βn are the regression coefficients (also known as the model parameters)
+- ε is the error term (representing the difference between the predicted and actual values)
 The regression coefficients represent the change in the dependent variable for a one-unit change in the corresponding independent variable, holding all other independent variables constant.
 /Using this model we were able to achieve 97% accuracy, but it is too high, so there can be chances of overfitting./
 
