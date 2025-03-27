@@ -37,8 +37,8 @@ The high-altitude regions of India, such as Ladakh, Himachal Pradesh, Uttarakhan
 
 ## Data Processing
 Data processing is an essential step in creating and training a machine learning (ML) model. It involves the preparation and cleaning of data to ensure that it is suitable for use in the model. The main objective of data processing is to transform raw data into a format that can be used by the ML algorithms.
-1.1) IMPORTING DATABASE
-1.2) CLEANING OF DATA
+- IMPORTING DATABASE
+- CLEANING OF DATA
 I then dropped village name, as it was in strings format and was not necessary for the working of model. I also dropped snow and ice, grass and flooded vegetation column, as they had same values throughout the dataset and some had missing values. Then I encoded the dependent variable Location that was in form of string to int format.
 
 ## Analysing Data
